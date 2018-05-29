@@ -1,8 +1,5 @@
 package com.github.git_leon.sentencegenerator;
 
-import com.github.git_leon.sentencegenerator.legacy.Adjectivee;
-import com.github.git_leon.sentencegenerator.legacy.Utils;
-
 /**
  * @author leon on 5/29/18.
  */
@@ -48,12 +45,5 @@ public class SentenceGenerator {
         System.out.format("\nNounPhrase = %s", nounPhrase);
         System.out.format("\nVerbPhrase = %s", verbPhrase);
         System.out.format("\nSentence = %s %s %s.", nounPhrase, verbPhrase, suffixVerb);
-    }
-
-    public static void main(String[] args) {
-        System.out.println("\f");
-        for (Integer i = 0; i < 100; i++) {
-            System.out.format("\nSentence:\n\t>> %s", getSimpleSentence());
-        }
     }
 }

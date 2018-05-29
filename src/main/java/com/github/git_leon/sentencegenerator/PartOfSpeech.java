@@ -19,7 +19,7 @@ public abstract class PartOfSpeech {
     }
 
     public String getRandom() {
-        return RandomUtils.selectElement(fileLines.stream().toArray(String[]::new));
+        return RandomUtils.selectElement(fileLines);
     }
 
     public List<String> listAllLines() {
