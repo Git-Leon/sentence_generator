@@ -10,7 +10,6 @@ import static com.github.git_leon.sentencegenerator.SentenceGenerator.getSimpleS
 public class SentenceGeneratorTest {
     @Test
     public void getSimpleSentenceTest() {
-        System.out.println("\f");
         for (Integer i = 0; i < 100; i++) {
             System.out.format("\nSentence:\n\t>> %s", getSimpleSentence());
         }

@@ -61,12 +61,6 @@
             <artifactId>ioutils</artifactId>
             <version>1.1</version>
         </dependency>
-
-        <dependency>
-            <groupId>com.github.git-leon</groupId>
-            <artifactId>randomutils</artifactId>
-            <version>1.1</version>
-        </dependency>
     </dependencies>
 
 </project>
