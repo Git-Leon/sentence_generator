@@ -7,6 +7,6 @@ public class Conjunction extends PartOfSpeech {
     public static final Conjunction BASIC = new Conjunction("basic");
 
     public Conjunction(String fileName) {
-        super("conjunctions" + fileName);
+        super("conjunctions/" + fileName);
     }
 }
